@@ -17,16 +17,24 @@ h1 {
     text-shadow: 2px 1px #3d3c3c;
 }
 
+h2 {
+    font-size: 110%;
+}
+
 h2, h4 {
     color: #000000;
     text-align: center;
-    text-shadow: 1px 1px #666666;
+    text-shadow: 1px 1px #9c7d7d;
 }
 
 h3 {
     font-size: 80%;
     text-align: center;
-    color: #000000;
+    color:#ffffff;
+}
+
+h4 {
+    font-size: 70%;
 }
 
 p {
@@ -53,7 +61,7 @@ header {
 /* Image Landing Page */
 
 #container-bg {
-    background: url(background.jpg) fixed no-repeat center center;
+    background: url(monitor-1307227.jpg) fixed no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 25%;
@@ -76,6 +84,10 @@ header {
 }
 
 /*Services*/
+
+.services, .questions-div, .contact {
+    margin-top: 10%;
+}
 
 
 .grid-layout {
@@ -113,7 +125,7 @@ header {
 a, label {
     text-decoration: none;
     color: rgb(7, 108, 155);
-    font-size: 18px;
+    font-size: 14px;
     margin: 10px;
 }
 
@@ -133,8 +145,7 @@ form {
 }
 
 .form-input {
-    border: 2px solid;
-    margin: 0 5% 0 5%;
+    margin-top: 10%;
 }
 
 input{
@@ -168,7 +179,7 @@ input, textarea {
 
 #grid-footer {
     border-top: white solid 1px;
-    background-color: rgb(3, 47, 128);
+    background-color: rgb(5, 81, 223);
 }
 
 #whatsapp-img {
@@ -186,7 +197,7 @@ input, textarea {
 
 .social-footer a {
     color: black;
-    font-size: 100%;
+    font-size: 75%;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -214,6 +225,16 @@ input, textarea {
         font-size: 120%;
     }
 
+
+    h2 {
+        font-size: 180%;
+    }
+
+    a, label {
+        font-size: 18px;
+        
+    }
+
     #order-btn, .submit-btn{
         margin-top: 7%;
         height: 45px;
@@ -229,9 +250,17 @@ input, textarea {
         width: 190px;
 
     }
+
+    .form-input {
+        margin-top: 5%;
+    }
     
     #email-input, textarea {
         width: 390px;
+    }
+
+    .social-footer a {
+        font-size: 95%;
     }
     
 }
@@ -250,6 +279,10 @@ input, textarea {
         font-size: 200%;
     }
 
+    h2 {
+        font-size: 140%;
+    }
+
     h3 {
         font-size: 120%;
     }
@@ -265,6 +298,11 @@ input, textarea {
         font-size: 150%;
     }
 
+    a, label {
+        font-size: 15px;
+        
+    }
+
     input{
         width: 190px;
 
@@ -273,5 +311,4 @@ input, textarea {
     #email-input, textarea {
         width: 390px;
     }
-    
 }
